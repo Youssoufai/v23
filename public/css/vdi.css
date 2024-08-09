@@ -6,6 +6,7 @@
     --dark: #333;
 }
 
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -97,8 +98,10 @@
     color: #FF6F0F;
     font-weight: 500;
     outline: none;
-    background: #333;
+
 }
+
+
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -153,6 +156,7 @@
     z-index: 1;
 }
 
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 15%;
@@ -184,8 +188,22 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(#333, #333), url(../img/carousel-1.jpg) center center no-repeat;
-    background-size: cover;
+    color: #FF6F0F;
+    /*    background: linear-gradient(#333, #333), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover; */
+}
+
+#color {
+    color: #FF6F0F !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#white {
+    color: #fff;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -222,6 +240,10 @@
     color: #FFFFFF;
 }
 
+#bash {
+    height: 100vh;
+}
+
 .causes-item .causes-overlay {
     position: absolute;
     width: 100%;
@@ -231,10 +253,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5);
+    background: #333;
     overflow: hidden;
     opacity: 0;
     transition: .5s;
+}
+
+#diff {
+    background: #333 !important;
 }
 
 .causes-item:hover .causes-overlay {
@@ -263,6 +289,9 @@
     border-color: var(--primary);
 }
 
+.set {
+    background: #333;
+}
 
 /*** Team ***/
 .team-item img {
@@ -279,6 +308,10 @@
     position: relative;
     height: 100px;
     transition: .5s;
+}
+
+.team-item {
+    background: #333 !important;
 }
 
 .team-item:hover .team-text {
@@ -298,7 +331,7 @@
 .team-item .team-social .btn {
     display: inline-flex;
     color: var(--primary);
-    background: #FFFFFF;
+    background: #333;
     border-radius: 40px;
 }
 
@@ -307,6 +340,36 @@
     background: var(--primary);
 }
 
+.top-bar {
+    height: 45px;
+    border-bottom: none;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.carousel-caption {
+    background: #333;
+}
+
+.page-header {
+    background: #333;
+}
+
+.footer {
+    background: #333;
+}
+
+.donate,
+.set {
+    background: #333;
+}
+
+/* Remove any background image if present */
+.page-header {
+    background-image: none;
+}
 
 /*** Testimonial ***/
 .testimonial-carousel::before {
