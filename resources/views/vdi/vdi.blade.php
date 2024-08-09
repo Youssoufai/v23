@@ -82,48 +82,33 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-[#FF6F0F] mb-3 animated slideInDown">Let's Save More Lives
-                                        With Our Helping Hand</h1>
-                                    <p class="fs-5 text-gray mb-5 animated slideInDown">The Versalink Development
-                                        Initiative (VDI) is the engine of our social impact efforts. This program goes
-                                        beyond the bottom line, channeling our resources to create positive change.</p>
-                                    {{--            <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+    <div class="container-fluid p-0 mb-5 bg-dark" style="background: #333" id="vdiii">
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 pt-5">
+                        <h1 class="display-4 text-[#FF6F0F] mb-3 animated slideInDown">Let's Save More Lives
+                            With Our Helping Hand</h1>
+                        <p class="fs-5 text-gray mb-5 animated slideInDown">The Versalink Development
+                            Initiative (VDI) is the engine of our social impact efforts. This program goes
+                            beyond the bottom line, channeling our resources to create positive change.</p>
+                        {{--            <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
                                         <div
                                             class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
                                     </a> --}}
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
     <!-- Carousel End -->
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 bg-dark" style="background: #333;">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

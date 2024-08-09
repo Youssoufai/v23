@@ -2,8 +2,8 @@
 :root {
     --primary: #FF6F0F;
     --secondary: #FFF0E6;
-    --light: #F8F8F9;
-    --dark: #fff;
+    --light: #333;
+    --dark: #333;
 }
 
 .back-to-top {
@@ -79,7 +79,7 @@
 
 .top-bar {
     height: 45px;
-    border-bottom: 1px solid rgba(255, 255, 255, .07);
+    border-bottom: 1px solid #333;
 }
 
 .navbar .dropdown-toggle::after {
@@ -97,6 +97,7 @@
     color: #FF6F0F;
     font-weight: 500;
     outline: none;
+    background: #333;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -107,8 +108,8 @@
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
-        border-top: 1px solid rgba(0, 0, 0, .07);
-        background: var(--dark);
+        border-top: 1px solid #333;
+        background: #333;
     }
 
     .navbar .navbar-nav .nav-link {
@@ -142,6 +143,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +184,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(#333, #333), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -240,6 +242,9 @@
     opacity: 1;
 }
 
+#vdiii {
+    background: #333;
+}
 
 /*** Service ***/
 .service-item {
@@ -249,7 +254,7 @@
 
 /*** Donate ***/
 .donate {
-    background: rgba(0, 29, 35, .8);
+    background: #333;
 }
 
 .btn-group .btn-light:hover,

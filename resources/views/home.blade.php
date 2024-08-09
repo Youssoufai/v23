@@ -155,7 +155,7 @@
                     <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                         <div class="p-lg-5 pe-lg-0">
                             <div class="section-title text-start">
-                                <h1 class="display-5 mb-4">About Us</h1>
+                                <h1 class="display-5 mb-4 text-primary">About Us</h1>
                             </div>
                             <p class="mb-4 pb-2">
                                 Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a social
@@ -332,7 +332,7 @@
                         <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                             <div class="p-lg-5 pe-lg-0">
                                 <div class="section-title text-start">
-                                    <h1 class="display-5 mb-4">Contact Us</h1>
+                                    <h1 class="display-5 mb-4 text-primary">Contact Us</h1>
                                 </div>
                                 <p class="mb-4 pb-2">
                                     Feel free to reach out to us
@@ -388,8 +388,8 @@
                                         <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
-                                <div class="text-center border border-5 border-light border-top-0 p-4">
-                                    <h5 class="mb-0">Abba Ibrahim Jidda</h5>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Abba Ibrahim Jidda</h5>
                                     <small>Team Member</small>
                                 </div>
                             </div>
@@ -407,7 +407,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center border border-top-0 p-4">
-                                    <h5 class="mb-0">Muhammad Jawwad Abdulkadir</h5>
+                                    <h5 class="mb-0 text-primary">Muhammad Jawwad Abdulkadir</h5>
                                     <small>Team Member</small>
                                 </div>
                             </div>
@@ -424,8 +424,8 @@
                                         <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
-                                <div class="text-center border border-5 border-light border-top-0 p-4">
-                                    <h5 class="mb-0">Muhammad Alkali</h5>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Muhammad Alkali</h5>
                                     <small>Team Member</small>
                                 </div>
                             </div>
@@ -442,8 +442,8 @@
                                         <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
-                                <div class="text-center border border-5 border-light border-top-0 p-4">
-                                    <h5 class="mb-0">Nasir Giade</h5>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Nasir Giade</h5>
                                     <small>Team Member</small>
                                 </div>
                             </div>

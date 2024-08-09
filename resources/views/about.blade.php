@@ -45,35 +45,37 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>Abuja, Nigeria</small>
+    <div class="set">
+        <div class="container-fluid p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                        <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                        <small>Abuja, Nigeria</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <small class="far fa-clock text-primary me-2"></small>
+                        <small id="day">Fri - </small><small id="time" class="ps-1"> 09:00 PM</small>
+                    </div>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
-                    <small class="far fa-clock text-primary me-2"></small>
-                    <small id="day">Fri - </small><small id="time" class="ps-1"> 09:00 PM</small>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+234 907 390 9293</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    {{-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                        <small class="fa fa-phone-alt text-primary me-2"></small>
+                        <small>+234 907 390 9293</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center">
+                        {{-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
                             class="fab fa-facebook-f"></i></a> --}}
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/versalinkng?s=11"
-                        target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0"
-                        href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5"><i
-                            class="fab fa-instagram"></i></a>
-                    {{--         <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
+                        <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/versalinkng?s=11"
+                            target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square bg-white text-primary me-0"
+                            href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5"><i
+                                class="fab fa-instagram"></i></a>
+                        {{--         <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
                             class="fab fa-tiktok"></i></a> --}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,7 +83,7 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-[#333] navbar-light sticky-top p-0" style="background: #333">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-primary">VERSALINK</h2>
         </a>
@@ -91,9 +93,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('vdi') }}" class="nav-item nav-link">Vdi</a>
-                <a href="{{ route('podcast') }}" class="nav-item nav-link">Versalink post</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link active ">About</a>
+                <a href="{{ route('vdi') }}" class="nav-item nav-link active">Vdi</a>
+                <a href="{{ route('podcast') }}" class="nav-item nav-link active">Versalink post</a>
                 {{--  <a href="{{ route('project') }}" class="nav-item nav-link">Project</a> --}}
             </div>
         </div>
@@ -101,201 +103,217 @@
     <!-- Navbar End -->
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-    <!-- Feature Start -->
-    <!-- Feature end -->
-
-    <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover"
-                            alt="" />
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">About Us</h1>
-                        </div>
-                        <p class="mb-4 pb-2">
-                            Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a social
-                            enterprise driven by a powerful idea: to create a ripple effect of positive change in
-                            Nigeria. We achieve this by blending business success with social impact.
-                            <span id="dots">...</span><span id="more">
-                                Basically, Combining profit and social good.
-                                We operate commercially, generating revenue and creating jobs. But unlike traditional
-                                businesses, Most of our profits fuel impactful programs that directly address the needs
-                                of
-                                Nigerian communities. This commitment to social good sets us apart.
-                            </span>
-                        </p>
-                        <a onclick="myFunction()" id="myBtn" class="btn btn-primary py-3 px-5">Explore More</a>
-                    </div>
-                </div>
+    <div class="set">
+        <div class="container-fluid page-header py-5 mb-5 set">
+            <div class="container py-5">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
             </div>
         </div>
-    </div>
-    <!-- About End -->
+        <!-- Page Header End -->
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba2.jpg"
-                                alt="" />
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+        <!-- Feature Start -->
+        <!-- Feature end -->
+
+        <!-- About Start -->
+        <div class="set" style="background-color: #333; color:white;">
+            <div class="container-fluid overflow-hidden my-5 px-lg-0">
+                <div class="container about px-lg-0">
+                    <div class="row g-0 mx-lg-0">
+                        <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                            <div class="position-relative h-100">
+                                <img class="position-absolute img-fluid w-100 h-100" src="img/4.png"
+                                    style="object-fit: cover" alt="" />
                             </div>
                         </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Abba Ibrahim Jidda</h5>
-                            <small>Team Member</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" style="height: 391px; width:261px;" src="img/mj2.jpg"
-                                alt="" />
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                        <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="p-lg-5 pe-lg-0">
+                                <div class="section-title text-start">
+                                    <h1 class="display-5 mb-4 text-primary">About Us</h1>
+                                </div>
+                                <p class="mb-4 pb-2">
+                                    Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a
+                                    social
+                                    enterprise driven by a powerful idea: to create a ripple effect of positive change
+                                    in
+                                    Nigeria. We achieve this by blending business success with social impact.
+                                    <span id="dots">...</span><span id="more">
+                                        Basically, Combining profit and social good.
+                                        We operate commercially, generating revenue and creating jobs. But unlike
+                                        traditional
+                                        businesses, Most of our profits fuel impactful programs that directly address
+                                        the
+                                        needs
+                                        of
+                                        Nigerian communities. This commitment to social good sets us apart.
+                                    </span>
+                                </p>
+                                <a onclick="myFunction()" id="myBtn" class="btn btn-primary py-3 px-5">Explore
+                                    More</a>
                             </div>
                         </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Muhammad Jawwad Abdulkadir</h5>
-                            <small>Team Member</small>
-                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" style="height: 391px; width:261px;" src="img/AK.jpg"
-                                alt="" />
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Muhammad Alkali</h5>
-                            <small>Team Member</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" style="height: 391px; width:261px;" src="img/senator.jpg"
-                                alt="" />
-                            <div class="team-social">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Nasir Giade</h5>
-                            <small>Team Member</small>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+            <!-- About End -->
+
+            <!-- Team Start -->
+            <div class="container-xxl py-5 set" style="background: #333">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h1 class="display-5 mb-5">Team Members</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba2.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Abba Ibrahim Jidda</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/mj2.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Muhammad Jawwad Abdulkadir</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/AK.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Muhammad Alkali</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/senator.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Nasir Giade</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
+
+            <!-- Footer Start -->
+            <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5 justify-content-between">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-light mb-4">Address</h4>
+                            <p class="mb-2">
+                                <i class="fa fa-map-marker-alt me-3"></i>NO25, B close, 3rd Avenue.
+                                Gwarinpa.
+                                Abuja.
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-phone-alt me-3"></i>+234 907 390 9293
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-envelope me-3"></i>versalink.ng@gmail.com
+                            </p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href="https://x.com/versalinkng?s=11"
+                                    target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i
+                                        class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5"
+                                    target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="{{ route('home') }}">Home</a>
+                            <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
+                            <a class="btn btn-link" href="{{ route('vdi') }}">VDI</a>
+                            <a class="btn btn-link" href="{{ route('podcast') }}">VL POST</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <p>Kindly fill in your email address below to get updated through our monthly newsletter</p>
+                            <div class="position-relative mx-auto" style="max-width: 400px">
+                                <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Your email" />
+                                <button type="button"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+                                    SignUp
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy;
+                                <a class="border-bottom" href="#">Versalink Nigeria</a>, All
+                                Right Reserved 2024.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                Designed By
+                                <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
+                    class="bi bi-arrow-up"></i></a>
+
         </div>
     </div>
-    <!-- Team End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5 justify-content-between">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2">
-                        <i class="fa fa-map-marker-alt me-3"></i>NO25, B close, 3rd Avenue.
-                        Gwarinpa.
-                        Abuja.
-                    </p>
-                    <p class="mb-2">
-                        <i class="fa fa-phone-alt me-3"></i>+234 907 390 9293
-                    </p>
-                    <p class="mb-2">
-                        <i class="fa fa-envelope me-3"></i>versalink.ng@gmail.com
-                    </p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="https://x.com/versalinkng?s=11"
-                            target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social"
-                            href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="{{ route('home') }}">Home</a>
-                    <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
-                    <a class="btn btn-link" href="{{ route('vdi') }}">VDI</a>
-                    <a class="btn btn-link" href="{{ route('podcast') }}">VL POST</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Kindly fill in your email address below to get updated through our monthly newsletter</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email" />
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
-                            SignUp
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy;
-                        <a class="border-bottom" href="#">Versalink Nigeria</a>, All
-                        Right Reserved 2024.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        Designed By
-                        <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
-
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

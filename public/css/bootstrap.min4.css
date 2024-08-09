@@ -17,15 +17,15 @@
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
     --bs-gray: #6c757d;
-    --bs-gray-dark: #343a40;
+    --bs-gray-dark: #333;
     --bs-primary: #FF6F0F;
-    --bs-secondary: #FFF0E6;
+    --bs-secondary: #ec883d;
     --bs-success: #fff;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
-    --bs-light: #F8F8F9;
-    --bs-dark: #fff;
+    --bs-light: #333;
+    --bs-dark: #333;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
