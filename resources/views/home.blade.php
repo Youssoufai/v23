@@ -492,7 +492,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/farouk.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/yusuf.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
