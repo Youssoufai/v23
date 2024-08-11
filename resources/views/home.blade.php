@@ -237,7 +237,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="section-title text-center">
-                    <h1 class="display-5 mb-5">Our Activites</h1>
+                    <h1 class="display-5 mb-5 text-primary">Our Activites</h1>
                 </div>
                 <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="col-12 text-center">
@@ -318,7 +318,30 @@
                 </div>
             </div>
             <!-- Projects End -->
+            <div class="container" style="margin:4rem">
+                <div>
+                    <h1 class="text-primary text-center">MISSION</h1>
+                    <p class="text-center">
+                        Versalink's mission is twofold. We operate commercially by earning profit and through that
+                        we directly equip individuals with the skills and after some time resources they need to
+                        thrive, fostering self-sufficiency and economic mobility. We also provide opportunities and
+                        support to disadvantaged communities, tackling local challenges and creating a more
+                        equitable future through our program VDI.
 
+                    </p>
+                    <h1 class="text-primary text-center" style="margin: 2rem;font-size:1.2rem;">VISION</h1>
+                    <p style="text-align: center;">
+                        Versalink envisions a Nigeria where businesses not only thrive but also become catalysts for
+                        positive social change. We aim to achieve this by becoming a leading social enterprise,
+                        focusing on critical areas like education, hunger, and access to clean water, and skills
+                        Development. Through our success, we hope to inspire a wave of innovation and social
+                        responsibility within the Nigerian business landscape, creating a more just and equitable
+                        future for all.
+
+
+                    </p>
+                </div>
+            </div>
             <!-- Quote Start -->
             <div class="container-fluid overflow-hidden my-5 px-lg-0">
                 <div class="container quote px-lg-0">
@@ -373,13 +396,13 @@
             <div class="container-xxl py-5">
                 <div class="container">
                     <div class="section-title text-center">
-                        <h1 class="display-5 mb-5">Team Members</h1>
+                        <h1 class="display-5 mb-5 text-primary">Team Members</h1>
                     </div>
                     <div class="row g-4">
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" src="img/abba2.jpg" style="height: 391px; width:261px;"
+                                    <img class="img-fluid" src="img/abba.jpg" style="height: 391px; width:100%;"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -397,7 +420,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid"style="height: 391px; width:261px;" src="img/mj2.jpg"
+                                    <img class="img-fluid"style="height: 391px; width:100%;" src="img/mj2.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -415,7 +438,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:261px;"src="img/AK.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/AK.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -433,7 +456,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:261px;"src="img/senator.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/senator.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -444,6 +467,42 @@
                                 </div>
                                 <div class="text-center border border-top-0 p-4">
                                     <h5 class="mb-0 text-primary">Nasir Giade</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/farouk.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Farouk Abdulkadir</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/farouk.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Yusuf Muhammad</h5>
                                     <small>Team Member</small>
                                 </div>
                             </div>

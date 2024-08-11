@@ -189,7 +189,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba2.jpg"
+                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba.jpg"
                                     alt="">
                             </div>
                             <div class="team-text bg-light text-center p-4">
@@ -244,6 +244,40 @@
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Nasir Giade</h5>
+                                <p class="text-primary">Team Member</p>
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item position-relative rounded overflow-hidden">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/farouk.jpg"
+                                    alt="">
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Farouk Abdulkadir</h5>
+                                <p class="text-primary">Team Member</p>
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item position-relative rounded overflow-hidden">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/senator.jpg"
+                                    alt="">
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Yusuf Muhammad</h5>
                                 <p class="text-primary">Team Member</p>
                                 <div class="team-social text-center">
                                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>

@@ -166,7 +166,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba2.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/abba.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -184,7 +184,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/mj2.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/mj2.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -202,7 +202,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/AK.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/AK.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -220,7 +220,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/senator.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/farouk.jpg"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
@@ -231,6 +231,24 @@
                                 </div>
                                 <div class="text-center border border-top-0 p-4">
                                     <h5 class="mb-0 text-primary">Nasir Giade</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/senator.jpg"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Yusuf Muhammad</h5>
                                     <small>Team Member</small>
                                 </div>
                             </div>
