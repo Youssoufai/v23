@@ -10,7 +10,6 @@
     @vite (['resources/css/app.css','resources/js/app.js'])
     <!-- Favicon -->
     <link href="img/4.png" rel="icon" />
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -66,8 +65,9 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link active">About</a>
-                <a href="{{ route('vdi') }}" class="nav-item nav-link active">Vdi</a>
-                <a href="{{ route('podcast') }}" class="nav-item nav-link active">vl post</a>
+                <a href="{{ route('vdi') }}" class="nav-item nav-link active">Versalink Development Initiative</a>
+                <a href="{{ route('divisions') }}" class="nav-item nav-link active">Our Divisions</a>
+                <a href="{{ route('podcast') }}" class="nav-item nav-link active">Versalink Post</a>
             </div>
         </div>
     </nav>
@@ -85,7 +85,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-8 text-center">
-                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                                    <h5 class="text-uppercase mb-3 animated slideInDown" style="color: #ff914c;">
                                         Welcome To
                                     </h5>
                                     <h1 class="display-3 text-white animated slideInDown mb-4">
@@ -112,17 +112,19 @@
         <!-- Carousel End -->
 
         <!-- About Start -->
+        <!-- About Start -->
+        <!-- About Start -->
         <div class="container-fluid overflow-hidden my-5 px-lg-0">
             <div class="container about px-lg-0">
-                <div class="row g-0 mx-lg-0">
-                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute img-fluid w-100 h-57" src="img/4.png"
-                                style="object-fit: cover" alt="" />
+                            <img class="img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover;"
+                                alt="About Us Image" />
                         </div>
                     </div>
                     <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="p-lg-5 pe-lg-0">
+                        <div class="p-4 p-lg-5">
                             <div class="section-title text-start">
                                 <h1 class="display-5 mb-4 text-primary">About Us</h1>
                             </div>
@@ -140,57 +142,61 @@
         <!-- About End -->
 
         <!-- Mission Start -->
-        {{--     <div class="container-fluid overflow-hidden my-5 px-lg-0">
-        <div class="container mission px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-57" src="img/mission.jpg"
-                            style="object-fit: cover" alt="Mission" />
-                    </div>
-                </div>
-                <div class="col-lg-6 mission-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Our Mission</h1>
+        <div class="container-fluid overflow-hidden my-5 px-lg-0">
+            <div class="container mission px-lg-0">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/pd.jpg"
+                                style="object-fit: cover; max-height: 500px;" alt="Mission Image" />
                         </div>
-                        <p class="mb-4 pb-2">
-                            Our mission is to foster sustainable development and social change through innovative
-                            business practices. We aim to provide solutions that balance profitability and social
-                            impact, ensuring a better future for communities in Nigeria and beyond.
-                        </p>
+                    </div>
+                    <div class="col-lg-6 mission-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-4 p-lg-5">
+                            <div class="section-title text-start">
+                                <h1 class="display-5 mb-4 text-primary">Our Mission</h1>
+                            </div>
+                            <p class="mb-4 pb-2">
+                                Our mission is to be the foremost provider of goods and services, setting new standards
+                                for quality, innovation, and customer satisfaction in every sector we operate.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> --}}
         <!-- Mission End -->
 
         <!-- Vision Start -->
-        {{--  <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container vision px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-57" src="img/vision.jpg"
-                            style="object-fit: cover" alt="Vision" />
-                    </div>
-                </div>
-                <div class="col-lg-6 vision-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Our Vision</h1>
+        <div class="container-fluid overflow-hidden my-5 px-lg-0">
+            <div class="container vision px-lg-0">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 vision-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-4 p-lg-5">
+                            <div class="section-title text-start">
+                                <h1 class="display-5 mb-4 text-primary">Our Vision</h1>
+                            </div>
+                            <p class="mb-4 pb-2">
+                                We envision a world where businesses are catalysts for positive change, driving economic
+                                growth and improving lives. Versalink Group aspires to lead this transformation,
+                                measuring success not only by financial gains but also by the lasting impact we make on
+                                the world.
+                            </p>
                         </div>
-                        <p class="mb-4 pb-2">
-                            Our vision is to be a leading social enterprise that empowers communities, drives
-                            innovation, and inspires change. We envision a world where businesses not only thrive
-                            economically but also contribute to the well-being and prosperity of society as a whole.
-                        </p>
                     </div>
+                    <div class="col-lg-6" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid w-100 h-100" src="img/mj.jpg" style="object-fit: cover;"
+                                alt="Vision Image" />
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div> --}}
+        <!-- Vision End -->
+
+        <!-- Vision End -->
         <!-- Vision End -->
 
         <!-- More About Start -->
@@ -287,30 +293,6 @@
                 </div>
             </div>
             <!-- Projects End -->
-            <div class="container" style="margin:4rem">
-                <div>
-                    <h1 class="text-primary text-center">MISSION</h1>
-                    <p class="text-center">
-                        Versalink's mission is twofold. We operate commercially by earning profit and through that
-                        we directly equip individuals with the skills and after some time resources they need to
-                        thrive, fostering self-sufficiency and economic mobility. We also provide opportunities and
-                        support to disadvantaged communities, tackling local challenges and creating a more
-                        equitable future through our program VDI.
-
-                    </p>
-                    <h1 class="text-primary text-center" style="margin: 2rem;font-size:1.2rem;">VISION</h1>
-                    <p style="text-align: center;">
-                        Versalink envisions a Nigeria where businesses not only thrive but also become catalysts for
-                        positive social change. We aim to achieve this by becoming a leading social enterprise,
-                        focusing on critical areas like education, hunger, and access to clean water, and skills
-                        Development. Through our success, we hope to inspire a wave of innovation and social
-                        responsibility within the Nigerian business landscape, creating a more just and equitable
-                        future for all.
-
-
-                    </p>
-                </div>
-            </div>
             <!-- Quote Start -->
             <div class="container-fluid overflow-hidden my-5 px-lg-0">
                 <div class="container quote px-lg-0">
@@ -365,7 +347,7 @@
             <div class="container-xxl py-5">
                 <div class="container">
                     <div class="section-title text-center">
-                        <h1 class="display-5 mb-5 text-primary">Team Members</h1>
+                        <h1 class="display-5 mb-5 text-primary">Team <span style="color: white;">Members</span></h1>
                     </div>
                     <div class="row g-4">
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -461,7 +443,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/yusuf.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/igor.JPG"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i

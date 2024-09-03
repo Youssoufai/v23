@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-	--primary: #ec883d;
+	--primary: #ff914c;
 	--light: #fff;
 	--dark: #000000;
 }
@@ -570,7 +570,7 @@
 
 /*** Footer ***/
 .footer {
-	background: linear-gradient(rgba(53, 53, 53, 0.7), rgba(53, 53, 53, 0.7)),
+	background: linear-gradient(#000000, #000000),
 		url(../img/footer.jpg) center center no-repeat;
 	background-size: cover;
 }
@@ -646,4 +646,8 @@
 .header-carousel .owl-carousel-item img {
 	height: 100vh;
 	object-fit: cover;
+}
+
+.set {
+	background: #000000;
 }
