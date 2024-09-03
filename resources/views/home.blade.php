@@ -51,50 +51,18 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid p-0 " style="background: #333" id="heaeder">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>Abuja, Nigeria</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
-                    <small class="far fa-clock text-primary me-2"></small>
-                    <small id="day">Fri - </small><small id="time" class="ps-1"> 09:00 PM</small>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>
-                        +234 907 390 9293.
-                    </small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    {{--        <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-facebook-f"></i></a> --}}
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/versalinkng?s=11"
-                        target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0"
-                        href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
-                    {{--        <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
-                            class="fab fa-tiktok"></i></a> --}}
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-[#333] navbar-light sticky-top p-0" id="newbg">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">VERSALINK</h2>
+    <nav class="navbar navbar-expand-lg bg-[#333] navbar-light sticky-top p-0" id="newbg"
+        style="padding:3rem; display:flex; align-items:center;">
+        <a href="index.html" class="navbar-brand" style="margin-top: 3rem;display:flex; align-items:center;">
+            <img src="img/versa.webp" alt="">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse navcolor">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link active">About</a>
@@ -103,6 +71,7 @@
             </div>
         </div>
     </nav>
+
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
@@ -123,13 +92,13 @@
                                         VERSALINK
                                     </h1>
                                     <p class="text-white">
-                                        A social enterprises commit to a double bottom line: profit and social good.
-                                        <span id="dots">...</span><span id="more">
-                                            The organization must ensure that social motives don't cripple the business
-                                            model and that the drive for profit doesn't supersede the social good. The
-                                            above
-                                            has briefly summarized what social enterprise is, and that is VersaLink.
-                                        </span>
+                                        Versalink Group is a Nigerian
+                                        conglomerate committed to redefining
+                                        excellence across multiple industries.
+                                        Founded with a vision to be a leading
+                                        force in the Nigerian business
+                                        landscape.
+
                                     </p>
                                     <a class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                                         onclick="myFunction()" id="myBtn">Read More</a>
