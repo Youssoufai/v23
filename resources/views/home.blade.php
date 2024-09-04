@@ -56,9 +56,10 @@
     <nav class="navbar navbar-expand-lg bg-[#333] navbar-light sticky-top p-0" id="newbg"
         style="padding:3rem; display:flex; align-items:center;">
         <a href="index.html" class="navbar-brand" style="margin-top: 3rem;display:flex; align-items:center;">
-            <img src="img/versa.webp" alt="">
+            <img src="i" alt="">
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4 text-primary" style="background-color:#ff914c;"
+            data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -68,6 +69,7 @@
                 <a href="{{ route('vdi') }}" class="nav-item nav-link active">Versalink Development Initiative</a>
                 <a href="{{ route('divisions') }}" class="nav-item nav-link active">Our Divisions</a>
                 <a href="{{ route('podcast') }}" class="nav-item nav-link active">Versalink Post</a>
+                <a href="{{ route('brand') }}" class="nav-item nav-link active">Versa Brand</a>
             </div>
         </div>
     </nav>
