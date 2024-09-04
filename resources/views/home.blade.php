@@ -69,7 +69,6 @@
                 <a href="{{ route('vdi') }}" class="nav-item nav-link active">Versalink Development Initiative</a>
                 <a href="{{ route('divisions') }}" class="nav-item nav-link active">Our Divisions</a>
                 <a href="{{ route('podcast') }}" class="nav-item nav-link active">Versalink Post</a>
-                <a href="{{ route('brand') }}" class="nav-item nav-link active">Versa Brand</a>
             </div>
         </div>
     </nav>

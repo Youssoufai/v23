@@ -83,7 +83,7 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-[#333] navbar-light sticky-top p-0" style="background: #333">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-primary">VERSALINK</h2>
         </a>
@@ -93,9 +93,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link active ">About</a>
-                <a href="{{ route('vdi') }}" class="nav-item nav-link active">Vdi</a>
-                <a href="{{ route('podcast') }}" class="nav-item nav-link active">Versalink post</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link active">About</a>
+                <a href="{{ route('vdi') }}" class="nav-item nav-link active">Versalink Development Initiative</a>
+                <a href="{{ route('divisions') }}" class="nav-item nav-link active">Our Divisions</a>
+                <a href="{{ route('podcast') }}" class="nav-item nav-link active">Versalink Post</a>
                 {{--  <a href="{{ route('project') }}" class="nav-item nav-link">Project</a> --}}
             </div>
         </div>
@@ -115,7 +116,7 @@
         <!-- Feature end -->
 
         <!-- About Start -->
-        <div class="set" style="background-color: #333; color:white;">
+        <div class="set" color:white;">
             <div class="container-fluid overflow-hidden my-5 px-lg-0">
                 <div class="container about px-lg-0">
                     <div class="row g-0 mx-lg-0">
@@ -157,7 +158,7 @@
             <!-- About End -->
 
             <!-- Team Start -->
-            <div class="container-xxl py-5 set" style="background: #333">
+            <div class="container-xxl py-5 set">
                 <div class="container">
                     <div class="section-title text-center">
                         <h1 class="display-5 mb-5">Team Members</h1>
@@ -238,7 +239,7 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/yusuf.jpg"
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/igor.JPG"
                                         alt="" />
                                     <div class="team-social">
                                         <a class="btn btn-square" href=""><i
