@@ -157,7 +157,7 @@
             </section>
 
             <section class="division">
-                <img src="https://via.placeholder.com/200" alt="VersaSports">
+                <img src="img/sport.jpg" alt="VersaSports">
                 <div class="division-content">
                     <h2 class="text-primary"><span class="text-light">Versa</span> Sports</h2>
                     <p class="text-primary">A platform for nurturing young talent and promoting sports development.</p>
