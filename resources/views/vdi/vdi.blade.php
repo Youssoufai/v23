@@ -69,9 +69,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0 text-dark">
                     <a href="{{ route('home') }}" class="nav-item nav-link">Home</a>
-                    <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                    <a href="{{ route('vdi') }}" class="nav-item nav-link">Vdi</a>
-                    <a href="{{ route('podcast') }}" class="nav-item nav-link">VL Post</a>
+                    <a href="{{ route('about') }}" class="nav-item nav-link">ABOUT</a>
+                    <a href="{{ route('vdi') }}" class="nav-item nav-link">VERSALINK DEVELOPMENT INITIATIVE</a>
+                    <a href="{{ route('podcast') }}" class="nav-item nav-link">OUR DIVISIONS</a>
+                    <a href="{{ route('podcast') }}" class="nav-item nav-link">VERSALINK POST</a>
                 </div>
             </div>
         </nav>
@@ -176,205 +177,295 @@
         </div>
         <!-- Donate End -->
 
-
-        <!-- Team Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members
-                    </div>
-                    <h1 class="display-6 mb-5" style="color:#FF6F0F;">Let's Meet With Our Ordinary Soldiers</h1>
+                <div class="section-title text-center">
+                    <h1 class="display-5 mb-5 text-primary">Our Activites</h1>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba.jpg"
-                                    alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Abba Ibrahim Jidda</h5>
-                                <p class="text-primary">Team Member</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">All</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/summit.jpg" alt="" />
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/summit.jpg"
+                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Versalink at Youth Agenda Summit (Oct 20, 2023)
+                                </p>
+                                <p class="lh-base mb-0">Versalink made a strong showing at the Youth Agenda Summit 2.0
+                                    on
+                                    October 20th, 2023. Our founder took center stage, granting a captivating interview
+                                    where he emphasized the critical role young people play in shaping Nigeria's future.
+                                    Overall the Summit was an insightful discussion.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid h-100" src="img/mj2.jpg" alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Muhammad Jawwad Abdulkadir</h5>
-                                <p class="text-primary">Team Member</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/cup.jpg" alt="" />
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/cup.jpg"
+                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Versa Cup: May 25th & 26th (2024)</p>
+                                <p class="lh-base mb-0">Earlier this year Versalink hosted the Versa Cup, a grassroots
+                                    football tournament, on May 25th and 26th. Eight teams battled it out,showcasing
+                                    their
+                                    skills and sportsmanship. But the focus wasn't just on winning (congrats to the
+                                    champions!). It was about fostering a love for football, teamwork, and community
+                                    also to
+                                    empower the youths and promote talents. </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/AK.jpg"
-                                    alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Muhammad Alkali</h5>
-                                <p class="text-primary">Team Member</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/bee.jpg" alt="" />
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/bee.jpg"
+                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Versalink Organized Spelling Bee at Betharbel
+                                    IDP
+                                    School (Nov 28, 2023). </p>
+                                <p class="lh-base mb-0">The event ignited a love for learning among these talented
+                                    students, highlighting the need for continued educational support. Versalink remains
+                                    committed,to expand educational initiatives and empower IDP students to reach their
+                                    full
+                                    potential..</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/senator.jpg"
-                                    alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Nasir Giade</h5>
-                                <p class="text-primary">Team Member</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/farouk.jpg"
-                                    alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Farouk Abdulkadir</h5>
-                                <p class="text-primary">Team Member</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" style="height: 391px; width:261px;" src="img/yusuf.jpg"
-                                    alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Yusuf Muhammad</h5>
-                                <p class="text-primary">Team Member</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {{--       <div class="h-25 col-6 d-flex justify-content-center">
+                  
+                    <a href=""
+                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft position-relative bottom-0">See
+                        More</a>
+                </div> --}}
                 </div>
             </div>
-        </div>
-        <!-- Team End -->
-
-
-        <!-- Testimonial Start -->
-        <!-- Testimonial End -->
-
-
-        <!-- Footer Start -->
-        <div class="container-fluid text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h1 class="fw-bold text-primary mb-4">Versa<span class="text-white">link</span></h1>
-                        <p>Supporting access to quality education and lifelong learning opportunities for children and
-                            adults alike.
-                        </p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-square me-1" href="https://x.com/versalinkng?s=11" target="_blank"><i
-                                    class="fab fa-twitter"></i></a>
-                            {{-- <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a> --}}
-                            {{--          <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a> --}}
-                            <a class="btn btn-square me-0"
-                                href="https://www.instagram.com/versalink.vdi?igsh=ZGgyaXY0eGdpZDV1"
-                                target="_blank"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-light mb-4">Address</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>NO25, B close, 3rd Avenue.
-                            Gwarinpa.
-                            Abuja.</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+234 907 390 9293</p>
-                        <p><i class="fa fa-envelope me-3"></i>versalink.ng@gmail.com</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-light mb-4">Quick Links</h5>
-                        <a class="btn btn-link" href="{{ route('home') }}">Home</a>
-                        <a class="btn btn-link" href="{{ route('about') }}">About</a>
-                        <a class="btn btn-link" href="{{ route('podcast') }}">Versalink Post</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-light mb-4">Newsletter</h5>
-                        <p>Kindly fill in your email to receive monthly newsletters from versalink</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                                placeholder="Your email">
-                            <button type="button"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid copyright">
+            <!-- Team Start -->
+            <div class="container-xxl py-5">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a href="#">Versalink</a>, All Right Reserved.
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
+                        style="max-width: 500px;">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members
                         </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        <h1 class="display-6 mb-5" style="color:#FF6F0F;">Let's Meet With Our Ordinary Soldiers</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/abba.jpg"
+                                        alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>Abba Ibrahim Jidda</h5>
+                                    <p class="text-primary">Team Member</p>
+                                    <div class="team-social text-center">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid h-100" src="img/mj2.jpg" alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>Muhammad Jawwad Abdulkadir</h5>
+                                    <p class="text-primary">Team Member</p>
+                                    <div class="team-social text-center">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/AK.jpg"
+                                        alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>Muhammad Alkali</h5>
+                                    <p class="text-primary">Team Member</p>
+                                    <div class="team-social text-center">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/senator.jpg"
+                                        alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>Nasir Giade</h5>
+                                    <p class="text-primary">Team Member</p>
+                                    <div class="team-social text-center">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/farouk.jpg"
+                                        alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>Farouk Abdulkadir</h5>
+                                    <p class="text-primary">Team Member</p>
+                                    <div class="team-social text-center">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" style="height: 391px; width:261px;" src="img/igor.JPG"
+                                        alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>Yusuf Muhammad</h5>
+                                    <p class="text-primary">Team Member</p>
+                                    <div class="team-social text-center">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
+
+
+            <!-- Testimonial Start -->
+            <!-- Testimonial End -->
+
+
+            <!-- Footer Start -->
+            <div class="container-fluid text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h1 class="fw-bold text-primary mb-4">Versa<span class="text-white">link</span></h1>
+                            <p>Supporting access to quality education and lifelong learning opportunities for children
+                                and
+                                adults alike.
+                            </p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-square me-1" href="https://x.com/versalinkng?s=11"
+                                    target="_blank"><i class="fab fa-twitter"></i></a>
+                                {{-- <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                {{--          <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a> --}}
+                                <a class="btn btn-square me-0"
+                                    href="https://www.instagram.com/versalink.vdi?igsh=ZGgyaXY0eGdpZDV1"
+                                    target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-light mb-4">Address</h5>
+                            <p><i class="fa fa-map-marker-alt me-3"></i>NO25, B close, 3rd Avenue.
+                                Gwarinpa.
+                                Abuja.</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+234 907 390 9293</p>
+                            <p><i class="fa fa-envelope me-3"></i>versalink.ng@gmail.com</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-light mb-4">Quick Links</h5>
+                            <a class="btn btn-link" href="{{ route('home') }}">Home</a>
+                            <a class="btn btn-link" href="{{ route('about') }}">About</a>
+                            <a class="btn btn-link" href="{{ route('podcast') }}">Versalink Post</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-light mb-4">Newsletter</h5>
+                            <p>Kindly fill in your email to receive monthly newsletters from versalink</p>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Your email">
+                                <button type="button"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a href="#">Versalink</a>, All Right Reserved.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                                Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('vdii/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('vdii/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('vdii/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('vdii/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('vdii/parallax/parallax.min.js') }}"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ asset('vdii/wow/wow.min.js') }}"></script>
+        <script src="{{ asset('vdii/easing/easing.min.js') }}"></script>
+        <script src="{{ asset('vdii/waypoints/waypoints.min.js') }}"></script>
+        <script src="{{ asset('vdii/owlcarousel/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('vdii/parallax/parallax.min.js') }}"></script>
 
-    <!-- Template Javascript -->
-    <script src="{{ asset('js/vdi.js') }}"></script>
+        <!-- Template Javascript -->
+        <script src="{{ asset('js/vdi.js') }}"></script>
 </body>
 
 </html>

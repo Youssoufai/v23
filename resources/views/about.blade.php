@@ -132,20 +132,12 @@
                                     <h1 class="display-5 mb-4 text-primary">About Us</h1>
                                 </div>
                                 <p class="mb-4 pb-2">
-                                    Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a
-                                    social
-                                    enterprise driven by a powerful idea: to create a ripple effect of positive change
-                                    in
-                                    Nigeria. We achieve this by blending business success with social impact.
-                                    <span id="dots">...</span><span id="more">
-                                        Basically, Combining profit and social good.
-                                        We operate commercially, generating revenue and creating jobs. But unlike
-                                        traditional
-                                        businesses, Most of our profits fuel impactful programs that directly address
-                                        the
-                                        needs
-                                        of
-                                        Nigerian communities. This commitment to social good sets us apart.
+                                    Versalink Group is a Nigerian
+                                    conglomerate committed to redefining
+                                    excellence across multiple industries.
+                                    Founded with a vision to be a leading
+                                    force in the Nigerian business
+                                    landscape.
                                     </span>
                                 </p>
                                 <a onclick="myFunction()" id="myBtn" class="btn btn-primary py-3 px-5">Explore
@@ -203,6 +195,24 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/igor.JPG"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Yusuf Muhammad</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" style="height: 391px; width:100%;" src="img/AK.jpg"
                                         alt="" />
                                     <div class="team-social">
@@ -236,25 +246,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="team-item">
-                                <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:100%;" src="img/igor.JPG"
-                                        alt="" />
-                                    <div class="team-social">
-                                        <a class="btn btn-square" href=""><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center border border-top-0 p-4">
-                                    <h5 class="mb-0 text-primary">Yusuf Muhammad</h5>
-                                    <small>Team Member</small>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>

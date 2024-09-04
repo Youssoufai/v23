@@ -56,7 +56,7 @@
     <nav class="navbar navbar-expand-lg bg-[#333] navbar-light sticky-top p-0" id="newbg"
         style="padding:3rem; display:flex; align-items:center;">
         <a href="index.html" class="navbar-brand" style="margin-top: 3rem;display:flex; align-items:center;">
-            <img src="i" alt="">
+            <img src="img/versa.webp" alt="">
         </a>
         <button type="button" class="navbar-toggler me-4 text-primary" style="background-color:#ff914c;"
             data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -80,9 +80,9 @@
         <div class="container-fluid p-0 pb-5">
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative">
-                    <img class="img-fluid bg-primary w-100" src="img/4.png" alt="" />
+                    {{--         <img class="img-fluid bg-primary w-100" src="img/4.png" alt="" /> --}}
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                        style="background: rgba(53, 53, 53, 0.7)">
+                        style="background: #000000">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-8 text-center">
@@ -130,9 +130,13 @@
                                 <h1 class="display-5 mb-4 text-primary">About Us</h1>
                             </div>
                             <p class="mb-4 pb-2">
-                                Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a social
-                                enterprise driven by a powerful idea: to create a ripple effect of positive change in
-                                Nigeria. We achieve this by blending business success with social impact.
+                                Versalink Group is a Nigerian
+                                conglomerate committed to redefining
+                                excellence across multiple industries.
+                                Founded with a vision to be a leading
+                                force in the Nigerian business
+                                landscape.
+
                             </p>
                             <a href="{{ route('vdi') }}" class="btn btn-primary py-3 px-5">Explore More</a>
                         </div>
@@ -390,6 +394,24 @@
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
+                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/igor.JPG"
+                                        alt="" />
+                                    <div class="team-social">
+                                        <a class="btn btn-square" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center border border-top-0 p-4">
+                                    <h5 class="mb-0 text-primary">Yusuf Muhammad</h5>
+                                    <small>Team Member</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" style="height: 391px; width:100%;"src="img/AK.jpg"
                                         alt="" />
                                     <div class="team-social">
@@ -441,25 +463,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="team-item">
-                                <div class="overflow-hidden position-relative">
-                                    <img class="img-fluid" style="height: 391px; width:100%;"src="img/igor.JPG"
-                                        alt="" />
-                                    <div class="team-social">
-                                        <a class="btn btn-square" href=""><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center border border-top-0 p-4">
-                                    <h5 class="mb-0 text-primary">Yusuf Muhammad</h5>
-                                    <small>Team Member</small>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
