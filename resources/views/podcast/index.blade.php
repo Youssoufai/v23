@@ -64,13 +64,20 @@
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                     <ul class="navbar-nav ms-auto">
                                         <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('home') }}">Home</a>
+                                        </li>
+                                        <li class="nav-item">
                                             <a class="nav-link" href="{{ route('about') }}">About</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('podcast') }}">VL Post</a>
+                                            <a class="nav-link" href="{{ route('podcast') }}">Versalink Post</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('vdi') }}">Vdi</a>
+                                            <a class="nav-link" href="{{ route('divisions') }}">Our Divisons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('vdi') }}">Versalink Development
+                                                Initiative</a>
                                         </li>
                                     </ul>
                                 </div>
