@@ -173,7 +173,7 @@
             </section>
 
             <section class="division">
-                <img src="https://via.placeholder.com/200" alt="Versapost">
+                <img src="img/post.jpg" alt="Versapost">
                 <div class="division-content">
                     <h2 class="text-primary"><span class="text-light">Versa</span> Post</h2>
                     <p class="text-primary">A media platform that produces engaging podcasts and magazines, covering a
