@@ -82,7 +82,7 @@
 
     <!-- Carousel Start -->
     <div id="diff">
-        <div class="container-fluid p-0 mb-5" style="background-color: #333;" id="bash">
+        <div class="container-fluid p-0 mb-5" id="bash">
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -112,7 +112,7 @@
         <!-- Carousel End -->
 
         <!-- About Start -->
-        <div class="container-xxl py-5" style="background-color: #333;">
+        <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -252,6 +252,74 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/shuraim.JPEG" alt=""
+                                    style="height: 300px; object-fit: cover;" />
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/bee.jpg"
+                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Versalinks Ramadan Event </p>
+                                <p class="lh-base mb-0">Versalinks hosted a successful Ramadan lecture series at Baze
+                                    University under the theme
+                                    "Holding Unto Our Deen in Today's World."
+                                    The series kicked off on March 15th with an enlightening lecture by renowned scholar
+                                    Abu jabir
+                                    Abdullah, known as Pen Abdul. The series concluded with a final lecture by
+                                    Nasiruddin Shuraim
+                                    Abdulmumin, known as Nshuraim.
+                                    Additional sessions featuring insightful talks by Ustaz Dantine and Sheikh Faisal
+                                    were held on
+                                    March 22nd.
+                                    These esteemed speakers explored the crucial importance of maintaining faith in the
+                                    complexities of modern life. Attendees gained valuable knowledge and inspiration to
+                                    strengthen their spiritual foundation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/vine.jpg" alt=""
+                                    style="height: 300px; object-fit: cover;" />
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/vine.jpg"
+                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Versalink Celebrates with Vine Heritage Home on
+                                    Children's Day </p>
+                                <p class="lh-base mb-0">Versalink brought joy to Vine Heritage Home (VVH)
+                                    orphanage for Children's Day! A happy day for the kids and
+                                    a rewarding experience for Versalink.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/comp.jpg" alt="" />
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/bee.jpg"
+                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">The VDI Short Story Prize (Inaugural Edition)
+                                </p>
+                                <p class="lh-base mb-0">In line with VDI's goal to support Nigeria's education sector,
+                                    a crucial aspect of the program, this newly
+                                    launched competition honors the memory of Ibrahim Jidda. It aims to inspire young
+                                    writers, promote literary
+                                    excellence, and contribute to social progress.</p>
+                            </div>
+                        </div>
+                    </div>
                     {{--       <div class="h-25 col-6 d-flex justify-content-center">
                   
                     <a href=""
@@ -388,7 +456,8 @@
 
 
             <!-- Footer Start -->
-            <div class="container-fluid text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container-fluid text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s"
+                id="footerbg">
                 <div class="container py-5">
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-6">

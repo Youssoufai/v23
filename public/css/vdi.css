@@ -2,8 +2,8 @@
 :root {
     --primary: #FF6F0F;
     --secondary: #FFF0E6;
-    --light: #333;
-    --dark: #333;
+    --light: #000000;
+    --dark: #000000;
 }
 
 
@@ -111,8 +111,8 @@
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
-        border-top: 1px solid #333;
-        background: #333;
+        border-top: 1px solid #000000;
+        background: #000000;
     }
 
     .navbar .navbar-nav .nav-link {
@@ -253,14 +253,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #333;
+    background: #000000;
     overflow: hidden;
     opacity: 0;
     transition: .5s;
 }
 
 #diff {
-    background: #333 !important;
+    background: #000000 !important;
 }
 
 .causes-item:hover .causes-overlay {
@@ -269,7 +269,7 @@
 }
 
 #vdiii {
-    background: #333;
+    background: #000000;
 }
 
 /*** Service ***/
@@ -280,7 +280,7 @@
 
 /*** Donate ***/
 .donate {
-    background: #333;
+    background: #000000;
 }
 
 .btn-group .btn-light:hover,
@@ -290,7 +290,7 @@
 }
 
 .set {
-    background: #333;
+    background: #000000;
 }
 
 /*** Team ***/
@@ -346,7 +346,7 @@
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #000000;
 }
 
 .carousel-caption {
@@ -354,7 +354,7 @@
 }
 
 .page-header {
-    background: #333;
+    background: #000000;
 }
 
 .footer {
@@ -363,7 +363,7 @@
 
 .donate,
 .set {
-    background: #333;
+    background: #000000;
 }
 
 /* Remove any background image if present */
@@ -516,4 +516,12 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+body {
+    background: #000000;
+}
+
+#footerbg {
+    background: #000000;
 }
