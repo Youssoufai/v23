@@ -10,7 +10,13 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "black": "#000000"
       },
+      backgroundImage: {
+        hero: "url('public/hero.jpg')",
+        'fout': "url('/public/4.png')",
+        'orange-black-gradient': 'linear-gradient(to bottom, rgb(249, 115, 22), #000000)',
+      }
     },
   },
   plugins: [],
