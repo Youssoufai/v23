@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white rounded-sm flex-1 shadow-lg"> {/* Added shadow */}
+                <div className="rounded-sm flex-1"> {/* Added shadow */}
                     <form action="#" className="p-9 space-y-5 bg-white shadow-md rounded-lg">
                         <div className="flex flex-col space-y-3">
                             <label htmlFor="full_name" className="text-orange-400 font-semibold">Full Name</label>
