@@ -28,10 +28,10 @@ const Contact = () => {
                     <div className="space-y-3">
                         <h2 className="text-lg font-semibold">Reach out to us on:</h2> {/* Increased font size and weight */}
                         <div className="flex space-x-4"> {/* Increased space between icons */}
-                            <FaFacebook className="text-2xl text-blue-600" /> {/* Added color to icons */}
-                            <FaTwitter className="text-2xl text-blue-400" />
-                            <FaInstagram className="text-2xl text-pink-500" />
-                            <FaLinkedinIn className="text-2xl text-blue-700" />
+                            <FaFacebook className="text-2xl text-black" /> {/* Added color to icons */}
+                            <FaTwitter className="text-2xl text-black" />
+                            <FaInstagram className="text-2xl text-black" />
+                            <FaLinkedinIn className="text-2xl text-black" />
                         </div>
                     </div>
                 </div>
