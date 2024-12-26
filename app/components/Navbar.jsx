@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
                     VERSA<span className='text-orange-500'>LINK</span>
                 </div>
                 <ul className='flex gap-4'>
-                    <li>About</li>
+                    <Link href="/about">About</Link>
                     <li>Versalink Development Initiative</li>
                     <li>Our Divisions</li>
                     <li className='text-orange-500'>Versalink Post</li>
