@@ -2,9 +2,14 @@ const Page = () => {
     return (
         <>
 
-            <section className="bg-vdi h-screen bg-center bg-cover relative" id="vdiBg">
+            <section className="bg-vdi p-11 h-screen bg-center bg-cover relative" id="vdiBg">
                 <div className="h-full flex items-center">
-                    <h1 className="text-3xl text-white">Give a helping hand to those who need it.</h1>
+                    <div className="flex-1">
+                        <h1 className="text-7xl text-white leading-snug">Give a helping hand to those who need it.</h1>
+                    </div>
+                    <div className="flex-1">
+
+                    </div>
                 </div>
             </section>
         </>
