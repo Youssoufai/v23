@@ -15,6 +15,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('public/hero.jpg')",
         'fout': "url('/public/4.png')",
+        'vdi': "linear-gradient(to bottom, rgb(249, 115, 22), #000000), url('/vdi.avif')", // Updated to include gradient
         'orange-black-gradient': 'linear-gradient(to bottom, rgb(249, 115, 22), #000000)',
       }
     },

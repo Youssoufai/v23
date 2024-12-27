@@ -10,7 +10,7 @@ const Navbar = () => {
                 </div>
                 <ul className='flex gap-4'>
                     <Link href="/about">About</Link>
-                    <li>Versalink Development Initiative</li>
+                    <Link href="/vdi">Versalink Development Initiative</Link>
                     <li>Our Divisions</li>
                     <li className='text-orange-500'>Versalink Post</li>
                 </ul>
