@@ -1,3 +1,5 @@
+import Activities from "../components/Activities";
+import Description from "../components/Description";
 import Upcoming from "../components/Upcoming";
 
 const Page = () => {
@@ -20,6 +22,8 @@ const Page = () => {
                     </div>
                 </section>
                 <Upcoming />
+                <Description />
+                <Activities />
             </section>
         </>
     )
